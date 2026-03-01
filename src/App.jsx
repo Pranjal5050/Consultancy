@@ -10,7 +10,7 @@ import About from './pages/About'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-auto'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

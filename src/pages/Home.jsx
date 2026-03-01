@@ -3,10 +3,10 @@ import Footer from "./Footer";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white w-full">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="relative h-screen flex items-center justify-center text-center text-white">
+      <section className="relative min-h-screen flex items-center justify-center text-center text-white">
 
         {/* Background Image */}
         <div className="absolute inset-0">
